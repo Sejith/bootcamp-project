@@ -1,0 +1,10 @@
+import hashlib
+text1 = input('enter the word to find hashes : ')
+result1 = hashlib.md5(text1.encode())
+print(result1.hexdigest())
+text2 = input('enter the word to find hashes : ')
+result2 = hashlib.md5(text2.encode())
+print(result2.hexdigest())
+text3 = input('enter the word to find hashes : ')
+result3 = hashlib.md5(text3.encode())
+print(result3.hexdigest())
